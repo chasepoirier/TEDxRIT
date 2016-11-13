@@ -114,17 +114,15 @@ Main components
 }
 
 .inner_sec3{
-  margin:0 auto;
+  margin-left:50px;
   padding-top: 20%;
-  bottom: auto;
-  right: auto;
   /*-webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);*/
-  width: 90%;
-  max-width: 900px;
+  width: 100%;
+  max-width: 90%;
   text-align: left;
 }
 
@@ -236,14 +234,12 @@ Main components
   font-weight: lighter;
 }
 
-@media only screen and (min-width: 1200px) {
-  .gap{
+.gap{
     border-right: 1px solid rgb(128, 128, 128);
     border-right: 1px solid rgba(128, 128, 128, .5);
     -webkit-background-clip: padding-box; /* for Safari */
     background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
   }
-}
 
 .header_lg{
   font-size:80px;
