@@ -125,8 +125,8 @@ Main components
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);*/
-  width: 100%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 900px;
   text-align: left;
 }
 
@@ -177,8 +177,11 @@ Main components
 }
 
 @media only screen and (max-width: 1200px) {
-  .sec4, .inner, .inner_sec3{
+  .sec4, .inner{
     top:20%;
+  }
+  .inner_sec3{
+    top:10%;
   }
 }
 
@@ -251,7 +254,7 @@ Main components
 }
 
 .header_lg{
-  font-size: 80px;
+  font-size:80px;
   font-weight: bolder;
   color:gray;
 }
@@ -259,6 +262,65 @@ Main components
 .header{
   font-size:50px;
   font-weight: bold;
+}
+
+.subtitle{
+  font-size:30px;
+  padding-top:10px;
+}
+
+@media only screen and (max-width:756px){
+  .header_lg{
+     font-size:40px;
+  }
+  .header{
+    font-size:30px;
+  }
+  .text{
+    font-size: 15px;
+  }
+  .separate{
+    padding-top:5px;
+  }
+  .logo{
+    width:40%;
+    height:40%;
+  }
+  .apply_button{
+    width: 50px;
+    height:30px;
+    font-size: 15px;
+    line-height: 23px;
+    border:1px solid #ff2b06;
+    margin-bottom: 10px;
+  }
+  .inner_sec1, .inner{
+    margin-left: 15px;
+  }
+  .inner_sec3{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .header_lg{
+     font-size:30px;
+  }
+  .header{
+    font-size:30px;
+  }
+  .logo{
+    width:40%;
+    height:40%;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  
+  .nav-left{
+    display:none;
+  }
 }
 
 .button:hover {
@@ -278,6 +340,11 @@ Main components
     line-height: 1.2;
   }
 }*/
+
+.full_story{
+  font-size: 3.0vw;
+  font-weight:bold;
+}
 
 .cd-scroll-down {
   position: absolute;
