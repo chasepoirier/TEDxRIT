@@ -114,10 +114,8 @@ Main components
 }
 
 .inner_sec3{
-  position: absolute;
-  /*left: 35%;*/
-  margin-left: 15%;
-  top: 30%;
+  margin:0 auto;
+  padding-top: 20%;
   bottom: auto;
   right: auto;
   /*-webkit-transform: translateX(-50%) translateY(-50%);
@@ -148,14 +146,7 @@ Main components
 }
 
 .inner_contact{
-  position: absolute;
-  margin-left: 55%;
-  margin-right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  margin:0 auto;
   top: 60%;
   bottom: auto;
   right: auto;
@@ -235,7 +226,8 @@ Main components
 }
 
 .nav-left{
-  margin-left: 50%;
+  float:right;
+  margin-right: 20px;
 }
 
 .text{
