@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -34,7 +34,7 @@ img {
   max-width: 100%;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -47,9 +47,9 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 .cd-section {
@@ -182,34 +182,56 @@ Main components
   font-size: 20px;
 }
 
-.button {
-    width: 250px;
-    height: 60px;
-    background-color: #ff2b06;
-    border-radius: 10px;
-    color: #f2f2f2;
-    font-size: 20px;
-    text-align: center;
-    line-height: 60px;
-    display: block;
-    text-decoration: none;
-    font-weight: 300;
-    margin-left: 22%;
+.button-fade {
+  width: 250px;
+  height: 60px;
+  background-color: #ff2b06;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 60px;
+  display: block;
+  text-decoration: none !important;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
 }
 
-.apply_button{
-  width: 180px;
+
+.button-fade:hover {
+  background-color: #820d11;
+  color: white;
+}
+
+
+.apply-fade{
+  width: 200px;
   height: 45px;
   border:solid #ff2b06;
   border-radius: 8px;
-  color: #ff2b06;
-  font-size: 20px;
   text-align: center;
   line-height: 35px;
   display: block;
-  text-decoration: none;
-  font-weight: 300;
-  margin-left:30px;
+  text-decoration: none !important;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ff2b06;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  transition-property: border, color;
+}
+
+.apply-fade:hover {
+  border: solid #820d11;
+  color: #820d11;
 }
 
 .top-padding{
@@ -305,7 +327,7 @@ Main components
 }
 
 @media only screen and (max-width: 1000px){
-  
+
   .nav-left{
     display:none;
   }
