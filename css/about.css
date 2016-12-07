@@ -1,0 +1,215 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/about-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 500px;
+    background-color: #181818;
+    opacity: .25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-content {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.nav {
+    max-width: 1000px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.logo {
+    background-image: url(../images/ted-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 50px;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px rgba(255,255,255,0) solid;
+    transition: all .2s;
+    padding-bottom: 5px;
+    margin: 0px 15px;
+}
+
+.link:hover {
+    border-bottom: 1px rgba(255,255,255,1) solid;
+}
+
+.hero-title {
+    padding-top: 150px;
+    color: #fff;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight:  700;
+}
+
+.page-wrapper {
+    max-width: 1000px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.content {
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px 0px;
+}
+
+.first {
+    padding-top: 100px;
+}
+
+.gray {
+    background-color: #f2f2f2;
+}
+
+.title {
+    font-size: 36px;
+    color: #2e2e2e;
+    padding-right: 75px;
+    text-align: right;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    text-align: right;
+    padding-right: 75px;
+}
+
+.text {
+    width: 560px;
+    font-size: 14px;
+    font-family: 'helvetica';
+    color: #2e2e2e;
+    opacity: .75;
+    line-height: 26px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer .top {
+    height: 260px;
+    background-color: #2e2e2e;
+}
+
+.footer .bottom {
+    height: 80px;
+    background-color: #1d1d1d;
+}
+
+.footer-title {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: 75px 0px 25px 0px;
+}
+
+.footer-button {
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px #ff2b06 solid;
+    color: #f2f2f2;
+    text-decoration: none;
+    display: block;
+    font-family: 'helvetica';
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.footer-button:hover {
+    background-color: #ff2b06;
+    
+}
+
+.container {
+    max-width: 1000px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.left {
+    color: #fff;
+    font-family: 'helvetica';
+    font-size: 12px;
+    opacity: .75;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 25px;
+    opacity: .5;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.social:hover {
+    opacity: 1;
+}
+
+.fb {
+    background-image: url(../images/fb.png);
+}
+
+.insta {
+    background-image: url(../images/insta.png);
+}
+
+.twitter {
+    background-image: url(../images/twitter.png);
+}
